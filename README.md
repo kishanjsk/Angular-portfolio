@@ -7,7 +7,7 @@ Firebase account : https://console.firebase.google.com/project/kishan-parmar-441
 
 ## DEMO Application
 
- Navigate to `https://kishanparmar.in/`. The app is generated from the source code.
+ Navigate to https://kishanparmar.in/  The app is generated from the source code.
 
 ## Development server
 
