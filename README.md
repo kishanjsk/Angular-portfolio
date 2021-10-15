@@ -5,6 +5,9 @@ Kishan Portfolio developed with an Angular application, using Firebase as a back
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 Firebase account : https://console.firebase.google.com/project/kishan-parmar-44133/
 
+## DEMO Application
+
+ Navigate to `https://kishanparmar.in/`. The app is generated from the source code.
 
 ## Development server
 
