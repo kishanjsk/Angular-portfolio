@@ -1,0 +1,51 @@
+<!-- ======= Portfolio Section ======= -->
+<section id="work" class="portfolio-mf sect-pt4 pb-5 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center pt-5">
+                    <h3 class="title-a">
+                        Portfolio
+                    </h3>
+                    <p class="subtitle-a">
+                        Some projects that I have done currently
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngIf="_service.portfolio!=null">
+            <div *ngFor="let project of _service.portfolio" class="col-md-4">
+                <div class="work-box">
+                    <a href="{{project.SiteURL}}" data-gall="portfolioGallery" target="_blank">
+                        <div class="work-img">
+                            <img [src]="project.ImageURL" alt="Project Portfolio" class="img-fluid">
+                        </div>
+                    </a>
+                    <div class="work-content">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">{{ project.Name }}</h2>
+                                <div class="w-more">
+                                    <span class="w-ctegory">{{ project.Category }}</span> / <span class="w-date">{{
+                                        project.Date }}</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div *ngIf="project.SiteURL" class="w-like pl-3">
+                                    <a href="{{project.SiteURL}}" target="_blank"> <span
+                                            class="ion-android-globe"></span></a>
+                                </div>
+                                <div *ngIf="project.GitHubURL" class="w-like">
+                                    <a href="{{project.GitHubURL}}" target="_blank"> <span
+                                            class="ion-social-github"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section><!-- End Portfolio Section -->

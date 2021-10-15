@@ -1,0 +1,42 @@
+<!-- ======= Portfolio Section ======= -->
+<section id="experience" class="portfolio-mf sect-pt4 pb-5 route">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="title-box text-center pt-5">
+                    <h3 class="title-a text-light">
+                        Experience
+                    </h3>
+                    <p class="subtitle-a text-light">
+                        Experience I have done currently
+                    </p>
+                    <div class="line-mf"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row" *ngIf="_service.experiences!=null">
+            <div class="timeline">
+                <div *ngFor="let experience of _service.experiences"
+                    class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+                    <div class="timeline__event__icon ">
+                        <i [class]="experience.Icon"></i>
+                    </div>
+                    <div class="timeline__event__date">
+                        {{experience.Tenure}}
+                    </div>
+                    <div class="timeline__event__content ">
+                        <div class="timeline__event__title">
+                            {{experience.CompanyName}}
+                        </div>
+                        <div class="timeline__event__short__title">
+                            {{experience.Position}}
+                        </div>
+                        <div class="timeline__event__description">
+                            <p>{{experience.Description}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Portfolio Section -->

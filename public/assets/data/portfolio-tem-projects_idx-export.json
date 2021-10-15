@@ -1,0 +1,57 @@
+[
+  {
+    "category": "DotNetCore",
+    "cod": "proj-1",
+    "date": "Dec 18, 2020",
+    "github": "https://github.com/kishanjsk/ArchitectueProjectMVCCore",
+    "title": "Architecture Project",
+    "url": "https://thearchitectsdiary.com/wp-content/uploads/2021/07/Project-Management-Architecture.jpg",
+    "web": "https://friends-contapp.herokuapp.com"
+  },
+
+  {
+    "category": ".Net Framework MVC",
+    "cod": "proj-2",
+    "date": "Dec 5, 2020",
+    "github": "https://github.com/StyvenSoft/postwi-app",
+    "title": "SunBridge Leasing Corporation",
+    "url": "https://www.sunbridgeleasing.com/img/sun9Logo.jpg",
+    "web": "https://www.sunbridgeleasing.com"
+  },
+  {
+    "category": "WebAPI",
+    "cod": "proj-3",
+    "date": "Apr 17, 2020",
+    "github": "https://github.com/StyvenSoft/Events-Site",
+    "title": "Clean architecture API",
+    "url": "https://external-preview.redd.it/Q9hmgewfaxV0J6glL1eIvhgQy51ulsnqIqUWfwwVVug.jpg?auto=webp&s=756318ec1f1f1ca71f551b2045986fc27b3ea7f6",
+    "web": "http://events-site.styvensoft.vercel.app"
+  },
+  {
+    "category": "Authorization & Authentication",
+    "cod": "proj-4",
+    "date": "Oct 1, 2020",
+    "github": "https://github.com/StyvenSoft/user-authentication",
+    "title": "Custom Permission based Authentication",
+    "url": "https://securityintelligence.com/wp-content/uploads/2018/10/si-advanced-authentication-feature.jpg",
+    "web": "https://user-authentication.styvensoft.vercel.app"
+  },
+  {
+    "category": "Javascript & Jquery",
+    "cod": "proj-4",
+    "date": "Oct 1, 2020",
+    "github": "https://github.com/StyvenSoft/user-authentication",
+    "title": "WebAPI-HttpCalling-Framework",
+    "url": "https://miro.medium.com/max/1200/1*LJsJxHgRQeuGvBgTacBWag.png",
+    "web": "https://user-authentication.styvensoft.vercel.app"
+  },
+  {
+    "category": ".NetFramework & .NetCore",
+    "cod": "proj-4",
+    "date": "Oct 1, 2020",
+    "github": "https://github.com/kishanjsk/DataExportClass",
+    "title": "DataExportClass",
+    "url": "https://dist.neo4j.com/wp-content/uploads/export-csv-from-neo4j-with-curl-cypher-jq.jpg",
+    "web": "https://user-authentication.styvensoft.vercel.app"
+  } 
+]

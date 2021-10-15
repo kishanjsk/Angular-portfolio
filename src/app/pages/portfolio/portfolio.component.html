@@ -1,0 +1,139 @@
+<!-- ======= Intro Section ======= -->
+<div id="home" class="intro route bg-image" style="background-image: url(assets/img/intro-bg.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+        <div class="table-cell">
+            <div class="container">
+                <!--<p class="display-6 color-d">Hello, world!</p>-->
+                <h1 class="intro-title mb-4">I am {{ _service.profile?.FirstName }} {{ _service.profile?.LastName}}
+                </h1>
+                <p class="intro-subtitle">
+                    <span class="text-slider-items">
+                        Web Developer, API Developer, Infrastructure engineer
+                    </span>
+                    <strong class="text-slider"></strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div><!-- End Intro Section -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="box-shadow-full">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-5">
+                                        <div class="about-img">
+                                            <img [src]="_service.profile?.URL" class="img-fluid rounded b-shadow-a"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-7">
+                                        <div class="about-info">
+                                            <p><span class="title-s">Name: </span> <span>{{ _service.profile?.FirstName
+                                                    }} {{ _service.profile?.LastName}}</span></p>
+                                            <p><span class="title-s">Profile: </span> <span>{{
+                                                    _service.profile?.Profession }}</span>
+                                            </p>
+                                            <p><span class="title-s">Email: </span> <span>{{ _service.profile?.Email
+                                                    }}</span></p>
+                                            <p><span class="title-s">Phone: </span> <span>{{ _service.profile?.Mobile
+                                                    }}</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-mf">
+                                    <p class="title-s">Skills</p>
+                                    <div>
+                                        <p class="lead">
+                                            <br />
+                                            <b>🏅 Expertise At:</b>
+                                            <br />
+                                            .NET Core, .NET MVC,
+
+                                            Amazon Web Services (AWS) (API Gateway, S3, EC2, RDS, Athena, Lambda, and
+                                            data
+                                            lake formation, Load Balancer, ElastiCache)
+
+                                            Azure AppService, Azure SQL, Azure CosmosDB, AzureAD Setup and Configuration
+
+                                            Extract, transform, and load data from a wide variety of data sources using
+                                            SQL
+                                            and AWS technologies.
+
+                                            No SQL databases (DynamoDB)
+
+                                            Building back-end infrastructures in AWS
+
+                                            Bamboo, Jenkins for CI/CD
+                                            <br />
+                                            🏅 <b>Industry Experience:</b>
+                                            <br />
+
+                                            Healthcare
+
+                                            Logistics
+
+                                            Education
+
+                                            Food
+
+                                            Entertainment
+
+                                            E-commerce
+                                            Sports
+                                            <br />
+                                            ✅ <b>Ticket System:</b>
+                                            <br />
+                                            JIRA, Trello, Zendesk, TFS.
+                                            <br />
+                                            ✅ <b>Version Control:</b>
+                                            <br />
+                                            BitBucket, SVN, GitHub, GIT, TFS, Azure DevOps, etc..
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="about-me pt-4 pt-md-0">
+                                    <div class="title-box-2">
+                                        <h5 class="title-left">
+                                            About me
+                                        </h5>
+                                    </div>
+                                    <p class="lead">
+                                        My name is <b> Kishan Parmar</b> and I have completed the Bechlor of engineering
+                                        from the Gandhinagar institute of technology(GTU). I am a person who is
+                                        passionate about computer science, programming and web development.
+                                    </p>
+                                    <p class="lead">
+                                        I constantly work on my self-taught learning, with the help of the different
+                                        technological tools that currently interact and intervene in the transformation
+                                        and growth of the digital world.
+                                    </p>
+                                    <p class="lead">
+                                        I focus on backend development and also Infrastructure of the application, their
+                                        performance, I am currently learning different libraries and frameworks to carry
+                                        out multiple software projects more quickly and easily.
+                                    </p>
+                                </div>
+                                <div class="about-me pt-4 pt-md-4 text-center">
+                                    <a class="btn-rounded-white" [href]="_service.profile?.Resume" target="_blank">
+                                        Download Resume</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End About Section -->
+</main>
